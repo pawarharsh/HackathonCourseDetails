@@ -15,7 +15,6 @@ public class Languages extends Base {
 	public Languages(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 		this.driver=driver;
-		PageFactory.initElements(driver, this);
 	}
 
 	public int sizeOfListOfLanguages() throws InterruptedException {

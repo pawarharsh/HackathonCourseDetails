@@ -15,7 +15,6 @@ public class Courses extends Base {
 	public Courses(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 		this.driver=driver;
-		PageFactory.initElements(driver, this);
 	}
 
 	public WebElement languageSelection() throws InterruptedException {

@@ -28,7 +28,6 @@ public class FillingForm extends Base{
 	public FillingForm(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 		this.driver=driver;
-		PageFactory.initElements(driver, this);
 	}
 
 	public String getErrorMsgOnInvalidEmail() throws InterruptedException {

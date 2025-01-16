@@ -15,7 +15,6 @@ public class Levels extends Base {
 	public Levels(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 		this.driver=driver;
-		PageFactory.initElements(driver, this);
 	}
 
 	public int sizeOfListOfLevel() {

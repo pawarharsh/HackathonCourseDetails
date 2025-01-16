@@ -21,7 +21,6 @@ public class HomePage extends Base{
 	public HomePage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 		this.driver=driver;
-		PageFactory.initElements(driver, this);
 	}
 
 	public void openURL() {
