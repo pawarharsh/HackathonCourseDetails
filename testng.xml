@@ -9,13 +9,13 @@
     </classes>
   </test> <!-- Test -->
   
-<!--   
+  
     <test thread-count="5" name="edgetest">
   <parameter name ="browser" value = "edge"/>
     <classes>
       <class name="Hackathon.NewTest"/>
     </classes>
-  </test>  -->
+  </test> 
   
   
 </suite> <!-- Suite -->
