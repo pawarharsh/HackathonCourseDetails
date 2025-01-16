@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="tests" name="chrometest(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Hackathon.NewTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="autoSuggestion"/>
+          <include name="afterClass"/>
+          <include name="errorOnBlankFields"/>
+          <include name="displayListOfLevel"/>
+          <include name="locateSearchBox"/>
+          <include name="displayListOfLanguages"/>
+          <include name="newTabSwitch"/>
+          <include name="courseLanguageSelection"/>
+          <include name="locateCourseForCampus"/>
+          <include name="navigateBackToHome"/>
+          <include name="locateStateOnSelectingIndia"/>
+          <include name="locateForEnterprise"/>
+          <include name="displayFirstCourseDetails"/>
+          <include name="locateForm"/>
+          <include name="openWebsite"/>
+          <include name="courseLevelSelection"/>
+          <include name="errorOnInvalidEmail"/>
+          <include name="displaySecondCourseDetails"/>
+          <include name="errorOnInvalidMobile"/>
+          <include name="submitFormVerification"/>
+        </methods>
+      </class> <!-- Hackathon.NewTest -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

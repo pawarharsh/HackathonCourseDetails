@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="40" passed="40" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-16T08:49:03 IST" name="Suite" finished-at="2025-01-16T08:59:34 IST" duration-ms="630795">
+    <groups>
+    </groups>
+    <test started-at="2025-01-16T08:49:03 IST" name="edgetest" finished-at="2025-01-16T08:59:04 IST" duration-ms="600106">
+      <class name="Hackathon.NewTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:49:04 IST" name="setUp" finished-at="2025-01-16T08:49:15 IST" duration-ms="11704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="initializePages()[pri:1, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:49:15 IST" name="initializePages" finished-at="2025-01-16T08:49:15 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePages -->
+        <test-method signature="openWebsite()[pri:2, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:49:15 IST" name="openWebsite" finished-at="2025-01-16T08:49:24 IST" duration-ms="8407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="locateSearchBox()[pri:3, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:49:24 IST" name="locateSearchBox" finished-at="2025-01-16T08:49:27 IST" duration-ms="3068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateSearchBox -->
+        <test-method signature="autoSuggestion()[pri:4, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:49:27 IST" name="autoSuggestion" finished-at="2025-01-16T08:50:52 IST" duration-ms="84764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoSuggestion -->
+        <test-method signature="courseLanguageSelection()[pri:5, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:50:52 IST" name="courseLanguageSelection" finished-at="2025-01-16T08:50:55 IST" duration-ms="3483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseLanguageSelection -->
+        <test-method signature="courseLevelSelection()[pri:6, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:50:55 IST" name="courseLevelSelection" finished-at="2025-01-16T08:50:58 IST" duration-ms="3408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseLevelSelection -->
+        <test-method signature="displayFirstCourseDetails()[pri:7, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:50:58 IST" name="displayFirstCourseDetails" finished-at="2025-01-16T08:51:04 IST" duration-ms="5168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayFirstCourseDetails -->
+        <test-method signature="displaySecondCourseDetails()[pri:8, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:51:04 IST" name="displaySecondCourseDetails" finished-at="2025-01-16T08:51:04 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displaySecondCourseDetails -->
+        <test-method signature="displayListOfLanguages()[pri:9, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:51:04 IST" name="displayListOfLanguages" finished-at="2025-01-16T08:51:09 IST" duration-ms="5391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayListOfLanguages -->
+        <test-method signature="displayListOfLevel()[pri:10, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:51:09 IST" name="displayListOfLevel" finished-at="2025-01-16T08:51:09 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayListOfLevel -->
+        <test-method signature="newTabSwitch()[pri:11, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:51:09 IST" name="newTabSwitch" finished-at="2025-01-16T08:51:53 IST" duration-ms="43293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTabSwitch -->
+        <test-method signature="navigateBackToHome()[pri:12, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:51:53 IST" name="navigateBackToHome" finished-at="2025-01-16T08:52:27 IST" duration-ms="34290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateBackToHome -->
+        <test-method signature="locateForEnterprise()[pri:13, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:52:27 IST" name="locateForEnterprise" finished-at="2025-01-16T08:53:33 IST" duration-ms="65922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateForEnterprise -->
+        <test-method signature="locateCourseForCampus()[pri:14, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:53:33 IST" name="locateCourseForCampus" finished-at="2025-01-16T08:53:34 IST" duration-ms="1101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateCourseForCampus -->
+        <test-method signature="locateForm()[pri:15, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:53:34 IST" name="locateForm" finished-at="2025-01-16T08:53:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateForm -->
+        <test-method signature="errorOnInvalidEmail()[pri:16, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:53:34 IST" name="errorOnInvalidEmail" finished-at="2025-01-16T08:54:17 IST" duration-ms="42872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorOnInvalidEmail -->
+        <test-method signature="errorOnInvalidMobile()[pri:17, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:54:17 IST" name="errorOnInvalidMobile" finished-at="2025-01-16T08:55:32 IST" duration-ms="74882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorOnInvalidMobile -->
+        <test-method signature="errorOnBlankFields()[pri:18, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:55:32 IST" name="errorOnBlankFields" finished-at="2025-01-16T08:56:44 IST" duration-ms="72073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorOnBlankFields -->
+        <test-method signature="locateStateOnSelectingIndia()[pri:19, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:56:44 IST" name="locateStateOnSelectingIndia" finished-at="2025-01-16T08:56:44 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateStateOnSelectingIndia -->
+        <test-method signature="submitFormVerification()[pri:20, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:56:44 IST" name="submitFormVerification" finished-at="2025-01-16T08:58:53 IST" duration-ms="129511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitFormVerification -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Hackathon.NewTest@4bff7da0]" started-at="2025-01-16T08:58:53 IST" name="afterClass" finished-at="2025-01-16T08:59:04 IST" duration-ms="10335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Hackathon.NewTest -->
+    </test> <!-- edgetest -->
+    <test started-at="2025-01-16T08:49:03 IST" name="chrometest" finished-at="2025-01-16T08:59:34 IST" duration-ms="630795">
+      <class name="Hackathon.NewTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:49:04 IST" name="setUp" finished-at="2025-01-16T08:49:14 IST" duration-ms="10748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="initializePages()[pri:1, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:49:14 IST" name="initializePages" finished-at="2025-01-16T08:49:15 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePages -->
+        <test-method signature="openWebsite()[pri:2, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:49:15 IST" name="openWebsite" finished-at="2025-01-16T08:49:22 IST" duration-ms="6473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="locateSearchBox()[pri:3, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:49:22 IST" name="locateSearchBox" finished-at="2025-01-16T08:49:25 IST" duration-ms="3655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateSearchBox -->
+        <test-method signature="autoSuggestion()[pri:4, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:49:25 IST" name="autoSuggestion" finished-at="2025-01-16T08:50:16 IST" duration-ms="50724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoSuggestion -->
+        <test-method signature="courseLanguageSelection()[pri:5, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:50:16 IST" name="courseLanguageSelection" finished-at="2025-01-16T08:50:20 IST" duration-ms="3773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseLanguageSelection -->
+        <test-method signature="courseLevelSelection()[pri:6, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:50:20 IST" name="courseLevelSelection" finished-at="2025-01-16T08:50:23 IST" duration-ms="3528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseLevelSelection -->
+        <test-method signature="displayFirstCourseDetails()[pri:7, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:50:23 IST" name="displayFirstCourseDetails" finished-at="2025-01-16T08:50:28 IST" duration-ms="5264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayFirstCourseDetails -->
+        <test-method signature="displaySecondCourseDetails()[pri:8, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:50:28 IST" name="displaySecondCourseDetails" finished-at="2025-01-16T08:50:29 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displaySecondCourseDetails -->
+        <test-method signature="displayListOfLanguages()[pri:9, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:50:29 IST" name="displayListOfLanguages" finished-at="2025-01-16T08:50:34 IST" duration-ms="5394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayListOfLanguages -->
+        <test-method signature="displayListOfLevel()[pri:10, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:50:34 IST" name="displayListOfLevel" finished-at="2025-01-16T08:50:34 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayListOfLevel -->
+        <test-method signature="newTabSwitch()[pri:11, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:50:34 IST" name="newTabSwitch" finished-at="2025-01-16T08:51:16 IST" duration-ms="42306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTabSwitch -->
+        <test-method signature="navigateBackToHome()[pri:12, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:51:16 IST" name="navigateBackToHome" finished-at="2025-01-16T08:52:19 IST" duration-ms="62441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateBackToHome -->
+        <test-method signature="locateForEnterprise()[pri:13, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:52:19 IST" name="locateForEnterprise" finished-at="2025-01-16T08:53:53 IST" duration-ms="94439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateForEnterprise -->
+        <test-method signature="locateCourseForCampus()[pri:14, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:53:53 IST" name="locateCourseForCampus" finished-at="2025-01-16T08:53:55 IST" duration-ms="1203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateCourseForCampus -->
+        <test-method signature="locateForm()[pri:15, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:53:55 IST" name="locateForm" finished-at="2025-01-16T08:53:55 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateForm -->
+        <test-method signature="errorOnInvalidEmail()[pri:16, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:53:55 IST" name="errorOnInvalidEmail" finished-at="2025-01-16T08:54:35 IST" duration-ms="40641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorOnInvalidEmail -->
+        <test-method signature="errorOnInvalidMobile()[pri:17, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:54:35 IST" name="errorOnInvalidMobile" finished-at="2025-01-16T08:55:35 IST" duration-ms="59728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorOnInvalidMobile -->
+        <test-method signature="errorOnBlankFields()[pri:18, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:55:35 IST" name="errorOnBlankFields" finished-at="2025-01-16T08:56:47 IST" duration-ms="72296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorOnBlankFields -->
+        <test-method signature="locateStateOnSelectingIndia()[pri:19, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:56:47 IST" name="locateStateOnSelectingIndia" finished-at="2025-01-16T08:56:47 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateStateOnSelectingIndia -->
+        <test-method signature="submitFormVerification()[pri:20, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:56:47 IST" name="submitFormVerification" finished-at="2025-01-16T08:59:26 IST" duration-ms="159195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitFormVerification -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Hackathon.NewTest@3b6d844d]" started-at="2025-01-16T08:59:26 IST" name="afterClass" finished-at="2025-01-16T08:59:34 IST" duration-ms="7783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Hackathon.NewTest -->
+    </test> <!-- chrometest -->
+  </suite> <!-- Suite -->
+</testng-results>
